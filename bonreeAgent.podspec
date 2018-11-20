@@ -53,7 +53,7 @@ Pod::Spec.new do |s|
   #  profile URL.
   #
 
-  s.author             = { "冯垚杰" => "fengyj@bonree.com" }
+  #s.author             = { "冯垚杰" => "fengyj@bonree.com" }
   # Or just: s.author    = "冯垚杰"
   # s.authors            = { "冯垚杰" => "fengyj@bonree.com" }
   # s.social_media_url   = "http://twitter.com/冯垚杰"
@@ -135,5 +135,5 @@ Pod::Spec.new do |s|
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"
-   s.ios.vendored_frameworks = 'bonreeAgent.framework'
+   s.ios.vendored_frameworks = 'BonreeAgent.framework'
 end
